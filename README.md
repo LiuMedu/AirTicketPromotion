@@ -41,8 +41,9 @@
 ![img](https://cdn.jsdelivr.net/gh/ThornClub/Images/images/2020/08/19/e4088d.png
 )
 * 出行日期：格式必须标准
+    * 多日期查询：多个日期以逗号(英文字符)分隔 例：2020-09-02,2020-09-03,2020-09-04
 * 城市名：简体中文全称
-* Server酱-Key：如果想用微信通知，可到网站上获取并填入其中
+* Server酱-Key：微信通知，可到[网站](http://sc.ftqq.com/3.version)上获取并填入其中
 
 #### 定时运行
 
