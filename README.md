@@ -1,4 +1,4 @@
-# Java-机票监控程序
+# 机票监控程序
 
 #### 使用
 
@@ -44,6 +44,14 @@
     * 多日期查询：多个日期以逗号(英文字符)分隔 例：2020-09-02,2020-09-03,2020-09-04
 * 城市名：简体中文全称
 * Server酱-Key：微信通知，可到[网站](http://sc.ftqq.com/3.version)上获取并填入其中
+
+#### 启动脚本
+由于`configuration.xml`资源文件的路径问题请参考以下方式
+```shell
+#!/bin/bash
+cd /root/Test
+java -jar AirTicketPromotion.jar
+```
 
 #### 定时运行
 
