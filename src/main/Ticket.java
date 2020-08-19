@@ -3,7 +3,7 @@ package main;
 /**
  * @author: Thorn
  * @Date: 2020/8/19 15:22
- * @Description:
+ * @Description:Ticket类
  */
 public class Ticket {
     private String fromcitycode,tocitycode,fromcityname,tocityname,key;

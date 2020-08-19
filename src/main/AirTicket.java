@@ -119,6 +119,7 @@ public class AirTicket {
      * @return: java.util.ArrayList<java.lang.String>
      */
     public static Map<String, String> ParHtml(String html){
+        //创建map数组存储日期和机票价格
         Map<String,String> value = new HashMap<>();
         Document parse = Jsoup.parse(html);
         Elements selected = parse.getElementsByClass("selected");
@@ -135,9 +136,15 @@ public class AirTicket {
      * @return: java.lang.String[]
      */
     public static String[] SplitDate(String date){
+        //以逗号切割日期
         String[] allDate = date.split(",");
         return allDate;
     }
+    /**
+     * Description:〈解析xml配置文件〉
+     * @param filename ：xml配置文件名
+     * @return: main.Ticket
+     */
     public static Ticket ParseConfiguration(String filename){
         //获取xml的path
         //解析xml
@@ -157,7 +164,7 @@ public class AirTicket {
             String tocityname = document.getElementsByTag("toadd").text();
             //6.获取Server酱的key
             String key = document.getElementsByTag("key").text();
-
+            //7.返回一个Ticket对象
             return new Ticket(fromcitycode,tocitycode,fromcityname,tocityname,key,dates);
         } catch (IOException e) {
             logger.error("读取配置文件信息错误"+e.getMessage(),e);
