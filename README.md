@@ -31,7 +31,7 @@
         <!--目标位置城市名：简体中文-->
         <toadd>呼和浩特</toadd>
         <!--Server酱的Key-->
-        <key>SCU69038Tc47163fcf7b82a59188c79053967a00f5df71d8d1996b</key>
+        <key>SCU69038Tc471xxxxxxxxxxxxxx3967a00f5df71d8d1996b</key>
     </ticket>
 </information>
 ```
@@ -43,7 +43,7 @@
 * 出行日期：格式必须标准
     * 多日期查询：多个日期以逗号(英文字符)分隔 例：2020-09-02,2020-09-03,2020-09-04
 * 城市名：简体中文全称
-* Server酱-Key：微信通知，可到[网站](http://sc.ftqq.com/3.version)上获取并填入其中
+* Server酱-Key：微信通知，可到[官网](http://sc.ftqq.com/3.version)上获取并填入其中
 
 #### 启动脚本
 由于`configuration.xml`资源文件的路径问题请参考以下方式
