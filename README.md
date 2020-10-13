@@ -63,9 +63,10 @@ java -jar AirTicketPromotion.jar
 
 #### 免责声明
 本程序仅供学习、交流使用，切勿用于其他途径，请在下载后的24小时内删除  
-本程序通过爬取同程网-机票预定的数据来实现的，如果本程序造成您的权益受到侵害或违反了中华人民共和国的法律，还请您在第一时间联系我
-<a href="mailto:41445233@qq.com">41445233@qq.com</a>
-<a href="mailto:libra@sgee.cc">admin@sgee.cc</a>
+本程序通过爬取同程网-机票预定的数据来实现的，如果本程序造成您的权益受到侵害或违反了中华人民共和国的法律，还请您在第一时间联系我  
+邮箱：
+  * <a href="mailto:41445233@qq.com">41445233@qq.com</a>
+  * <a href="mailto:libra@sgee.cc">admin@sgee.cc</a>
 
 [Blog](https://www.sgee.cc)
 
